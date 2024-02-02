@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Estilos del contenido principal */
+main {
+  padding: 20px;
+}
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+section {
+  text-align: justify;
+}
+h1 {
+  padding: 30px;
+  background: #333334;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: bold;
+}
+.img {
+  width: 500px;
+}
+@media only screen and (max-width: 600px) {
+  /* Estilos para dispositivos pequeños */
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para dispositivos medianos */
+  body {
+    font-size: 16px;
+  }
+}
